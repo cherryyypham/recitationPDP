@@ -1,0 +1,144 @@
+-------------------------------------------------------------------------------
+Test set: calculator.CalculatorTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 20, Skipped: 0, Time elapsed: 0.022 s <<< FAILURE! -- in calculator.CalculatorTest
+calculator.CalculatorTest.testTotalInitialValue -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "total" because "this.calculator" is null
+	at calculator.CalculatorTest.testTotalInitialValue(CalculatorTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testModelNotNull -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "m" because "this.calculator" is null
+	at calculator.CalculatorTest.testModelNotNull(CalculatorTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunUpdatesModel -- Time elapsed: 0.004 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunUpdatesModel(CalculatorTest.java:192)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunProducesFormattedOutput -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunProducesFormattedOutput(CalculatorTest.java:218)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunSetsComp -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunSetsComp(CalculatorTest.java:180)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunSetsNumA -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunSetsNumA(CalculatorTest.java:156)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunSetsNumB -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunSetsNumB(CalculatorTest.java:168)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunUpdatesView -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunUpdatesView(CalculatorTest.java:206)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testScannerNotNull -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testScannerNotNull(CalculatorTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunWithAddition -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunWithAddition(CalculatorTest.java:79)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunWithNegativeNumbers -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunWithNegativeNumbers(CalculatorTest.java:233)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunWithSubtraction -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunWithSubtraction(CalculatorTest.java:96)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testViewNotNull -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "v" because "this.calculator" is null
+	at calculator.CalculatorTest.testViewNotNull(CalculatorTest.java:39)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testNumBInitialValue -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "numB" because "this.calculator" is null
+	at calculator.CalculatorTest.testNumBInitialValue(CalculatorTest.java:58)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunCallsInstructions -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunCallsInstructions(CalculatorTest.java:143)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunWithDivision -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunWithDivision(CalculatorTest.java:127)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunWithMultiplication -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunWithMultiplication(CalculatorTest.java:111)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testCompInitialValue -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "comp" because "this.calculator" is null
+	at calculator.CalculatorTest.testCompInitialValue(CalculatorTest.java:70)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testNumAInitialValue -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot read field "numA" because "this.calculator" is null
+	at calculator.CalculatorTest.testNumAInitialValue(CalculatorTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
+calculator.CalculatorTest.testRunWithDecimals -- Time elapsed: 0 s <<< ERROR!
+java.lang.NullPointerException: Cannot assign field "in" because "this.calculator" is null
+	at calculator.CalculatorTest.testRunWithDecimals(CalculatorTest.java:248)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+
