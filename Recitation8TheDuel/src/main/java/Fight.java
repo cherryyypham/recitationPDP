@@ -6,11 +6,9 @@
 package main.java;
 
 public interface Fight {
+    void drawWeapon(String var1);
 
-    public void drawWeapon(String fightMedium);
+    int firePistols();
 
-    public int firePistols();
-
-    public int stabWithSaber();
-
+    int stabWithSaber();
 }

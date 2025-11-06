@@ -7,11 +7,9 @@
 package main.java;
 
 public interface GentlemansDuel {
+    void issueChallenge(String var1);
 
-    public void issueChallenge(String fightMedium);
+    int throwGlove();
 
-    public int throwGlove();
-
-    public int fisticuffs();
-
+    int fisticuffs();
 }
