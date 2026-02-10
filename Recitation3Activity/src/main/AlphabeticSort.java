@@ -23,6 +23,14 @@ public class AlphabeticSort {
 		//you don't have duplicate values. What happens
 		//if an element or node has the same ID as another
 		//existing one? How are you going to handle that?
+
+        for (int i=0; i<word.length(); i++) {
+            // Take ASCII value of character
+            int currChar = (int) word.charAt(i);
+            // Add the unique 2 digit representation of the letter
+            // to the to-be final numeric sequence
+            numericValue = numericValue * 100 + currChar;
+        }
 		
 		return numericValue;
 	}
