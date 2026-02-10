@@ -14,6 +14,8 @@ public class Element {
 	
 	public Element(String name) {
 		this.elementName = name;
+        AlphabeticSort sorter = new AlphabeticSort();
+        this.identifier = sorter.Sort(name);
 	}
 	
 	public String getName() {

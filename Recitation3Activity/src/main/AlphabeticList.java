@@ -15,7 +15,11 @@ public class AlphabeticList {
 	//than or greater than the head's value, an object will
 	//be stored to the "left" or "right" of it.
 	Node root;
-	
+
+    public AlphabeticList() {
+        this.root = null;
+    }
+
 	public AlphabeticList(Node element) {
 		this.root = element;
 	}
@@ -45,4 +49,34 @@ public class AlphabeticList {
 		return root;
 	}
 
+    // Search a node by string name
+    public Node search(String target) {
+        AlphabeticSort sorter = new AlphabeticSort();
+        int targetVal = sorter.Sort(target);
+        return searchHelper(root, targetVal, target);
+    }
+
+    private Node searchHelper(Node root, int targetVal, String target) {
+        if (root == null) {
+            return null;
+        }
+
+        if (targetVal == root.getID()) {
+            if (root.getNodeElement().getName().equalsIgnoreCase(target)) {
+                return root;
+            }
+
+            Node leftVal = searchHelper(root.left, targetVal, target);
+            if (leftVal != null) return null;
+            return searchHelper(root.right, targetVal, target);
+        }
+
+        else if (targetVal < root.getID()) {
+            return searchHelper(root.left, targetVal, target);
+        }
+
+        else {
+            return searchHelper(root.right, targetVal, target);
+        }
+    }
 }

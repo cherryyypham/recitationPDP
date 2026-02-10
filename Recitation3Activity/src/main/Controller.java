@@ -1,5 +1,7 @@
 package main;
 
+import java.util.Scanner;
+
 public class Controller {
 	
 	/**
@@ -11,6 +13,7 @@ public class Controller {
 	 */
 	
 	AlphabeticList listOfElements;
+    Scanner input;
 	
 	/**
 	 * In the main file, create a list holding at least 
@@ -21,6 +24,25 @@ public class Controller {
 	 */
 	public Controller(AlphabeticList newList) {
 		this.listOfElements = newList;
+        this.input = new Scanner(System.in);
 	}
 
+    public void runBinarySearch() {
+        while (true) {
+            System.out.print("Enter number to search: ");
+            String userInput = input.nextLine().trim();
+
+            if (input.equals("q")) {
+                break;
+            }
+
+            Node result = listOfElements.search(input);
+            if (result != null) {
+                System.out.println("Found "
+                        + result.getNodeElement().getName());
+            } else {
+                System.out.println("Input Not Found :(");
+            }
+        }
+    }
 }
